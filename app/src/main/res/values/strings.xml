@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Programming Quiz</string>
+
+    <!-- EditText Hint -->
+    <string name="name">Enter Your Name</string>
+
+    <!-- Question 1: Question and answers -->
+    <string name="question_one">According to you, what is Java?</string>
+    <string name="question_one_answer_one">A mediator between you and your computer</string>
+    <string name="question_one_answer_two">A video game console</string>
+    <string name="question_one_answer_three">A programming language</string>
+
+    <!-- Question 2: Question and answers -->
+    <string name="question_two">Which of the following returns a primitive data type?</string>
+    <string name="question_two_answer_one">Integer.intValue()</string>
+    <string name="question_two_answer_two">Integer.parseInt()</string>
+    <string name="question_two_answer_three">Integer.getInteger()</string>
+
+    <!-- Question 3: Question and answers -->
+    <string name="question_three">Which of the following are correct regarding method overriding?</string>
+    <string name="question_three_answer_one">Same name different signature</string>
+    <string name="question_three_answer_two">Both the methods must not be in the same class</string>
+    <string name="question_three_answer_three">Same name same signature</string>
+
+    <!-- Question 4: Question and answers -->
+    <string name="question_four">Which of this command is the correct way of printing in Java?</string>
+    <string name="question_four_answer_one">System.out.print</string>
+    <string name="question_four_answer_two">System.Out.print</string>
+    <string name="question_four_answer_three">system.out.Print</string>
+
+    <!-- Question 5: Question and answers -->
+    <string name="question_five">android:layout_width, android:text, android:src are all examples of what?</string>
+    <string name="question_five_answer_one">XML element</string>
+    <string name="question_five_answer_two">Attributes</string>
+    <string name="question_five_answer_three">Syntax</string>
+
+    <!-- Question 6: Question and answers -->
+    <string name="question_six">Which of the following are legal identifiers in Java?</string>
+    <string name="question_six_answer_one">$while</string>
+    <string name="question_six_answer_two">Abc_1</string>
+    <string name="question_six_answer_three">1abc</string>
+
+    <!-- Question 7: Question and answers -->
+    <string name="question_seven">Which of the following group consists of only Object-Oriented languages?</string>
+    <string name="question_seven_answer_one">C++,JAVA,C#</string>
+    <string name="question_seven_answer_two">C,C++,JAVA</string>
+    <string name="question_seven_answer_three">C,JAVA,RUBY</string>
+
+    <!-- Question 8: Question and answers -->
+    <string name="question_eight">Which of the following are primitive types?</string>
+    <string name="question_eight_answer_one">Integer</string>
+    <string name="question_eight_answer_two">Float</string>
+    <string name="question_eight_answer_three">Byte</string>
+
+    <!-- Score Text & Button -->
+    <string name="score_text"></string>
+    <string name="score">score</string>
+
+    <!-- Reset Button -->
+    <string name="reset">reset</string>
+
+</resources>
