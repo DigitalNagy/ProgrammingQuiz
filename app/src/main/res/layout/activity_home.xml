@@ -224,8 +224,4 @@
             style="@style/ResetButtonStyle" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/score_text_view"
-        style="@style/ScoreTextStyle" />
-
 </RelativeLayout>

@@ -1,13 +1,12 @@
 package com.example.android.programmingquiz;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity {
@@ -188,10 +187,6 @@ public class HomeActivity extends AppCompatActivity {
      * This method displays the given text on the screen.
      */
     private void displayMessage(String scoreMessage) {
-        TextView scoreTextView = findViewById(R.id.score_text_view);
-        scoreTextView.setText(scoreMessage);
-        if (scoreTextView.getText().length() > 0 && score >= 0) {
-            scoreTextView.setVisibility(View.VISIBLE);
-        }
+       android.widget.Toast.makeText(this, scoreMessage,Toast.LENGTH_LONG).show();
     }
 }

@@ -52,8 +52,7 @@
     <string name="question_eight_answer_two">Float</string>
     <string name="question_eight_answer_three">Byte</string>
 
-    <!-- Score Text & Button -->
-    <string name="score_text"></string>
+    <!-- Score Button -->
     <string name="score">score</string>
 
     <!-- Reset Button -->
