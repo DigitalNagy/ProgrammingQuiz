@@ -11,7 +11,6 @@ import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity {
 
-
     private int score = 0;
     private String name = "";
     private CheckBox CheckBox1_1;
