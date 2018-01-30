@@ -2,4 +2,27 @@
     <!-- screen padding -->
     <dimen name="activity_horizontal_padding">16dp</dimen>
     <dimen name="activity_vertical_padding">16dp</dimen>
+
+    <!-- dimens for EditText -->
+    <dimen name="editText_layout_marginTop">8dp</dimen>
+
+    <!-- dimens for questions text -->
+    <dimen name="questions_layout_marginBottom">16dp</dimen>
+    <dimen name="questions_layout_marginLeft">4dp</dimen>
+    <dimen name="questions_layout_marginStart">4dp</dimen>
+    <dimen name="questions_layout_marginTop">16dp</dimen>
+
+    <!-- dimens for CheckBox and RadioButton answers -->
+    <dimen name="answers_paddingLeft">16dp</dimen>
+    <dimen name="answers_paddingStart">16dp</dimen>
+
+    <!-- dimens for score button -->
+    <dimen name="scoreButton_layout_width">0dp</dimen>
+    <dimen name="scoreButton_layout_weight">1</dimen>
+
+    <!-- dimens for reset button -->
+    <dimen name="resetButton_layout_width">0dp</dimen>
+    <dimen name="resetButton_layout_weight">1</dimen>
+    <dimen name="resetButton_layout_marginLeft">12dp</dimen>
+
 </resources>

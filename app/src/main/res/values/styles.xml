@@ -19,17 +19,17 @@
         <item name="android:textColorHint">#303F9F</item>
         <item name="android:inputType">textCapWords</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginTop">@dimen/editText_layout_marginTop</item>
     </style>
 
     <!-- Style for questions text -->
     <style name="QuestionStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:layout_marginLeft">4dp</item>
-        <item name="android:layout_marginStart">4dp</item>
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">@dimen/questions_layout_marginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/questions_layout_marginLeft</item>
+        <item name="android:layout_marginStart">@dimen/questions_layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/questions_layout_marginTop</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">14sp</item>
     </style>
@@ -38,17 +38,17 @@
     <style name="AnswerStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingLeft">@dimen/answers_paddingLeft</item>
+        <item name="android:paddingStart">@dimen/answers_paddingStart</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">14sp</item>
     </style>
 
     <!-- Style for score button -->
     <style name="ScoreButtonStyle">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">@dimen/scoreButton_layout_width</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
+        <item name="android:layout_weight">@dimen/scoreButton_layout_weight</item>
         <item name="android:background">@color/colorSecondary</item>
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
@@ -61,10 +61,10 @@
 
     <!-- Style for reset button -->
     <style name="ResetButtonStyle">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">@dimen/resetButton_layout_width</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_weight">@dimen/resetButton_layout_weight</item>
+        <item name="android:layout_marginLeft">@dimen/resetButton_layout_marginLeft</item>
         <item name="android:background">@color/colorAccent</item>
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
