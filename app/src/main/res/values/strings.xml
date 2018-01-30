@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Programming Quiz</string>
 
-    <!-- EditText Hint -->
+    <!-- EditText Hint and else message -->
     <string name="name">Enter Your Name</string>
+    <string name="elseEditText">The field with the name should be completed!</string>
 
     <!-- Question 1: Question and answers -->
     <string name="question_one">According to you, what is Java?</string>

@@ -110,7 +110,7 @@ public class HomeActivity extends AppCompatActivity {
         if (editText.getText().length() > 0) {
             name = editText.getText().toString();
         } else {
-            Toast.makeText(this, "The field with the name should be completed!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.elseEditText, Toast.LENGTH_SHORT).show();
         }
         // disable edit text
         editText.setEnabled(false);
