@@ -1,7 +1,9 @@
 <resources>
-    <!-- screen padding -->
+    <!-- screen padding & margin -->
     <dimen name="activity_horizontal_padding">16dp</dimen>
     <dimen name="activity_vertical_padding">16dp</dimen>
+    <dimen name="scrollView_marginBottom">64dp</dimen>
+    <dimen name="linearLayout_marginBottom">48dp</dimen>
 
     <!-- dimens for EditText -->
     <dimen name="editText_layout_marginTop">8dp</dimen>
